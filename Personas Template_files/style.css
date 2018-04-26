@@ -18,7 +18,7 @@ body{
 header {padding:5px; background-color: #2D2D29; overflow: hidden;}
 header h1 { margin:5px 10px 0px 10px; padding:0; color: #DFECE6; font-size:1.8em; float:left;}
 header #logo {float:right; margin: 0;}
-article.persona {background-color: #fff; border:solid 1px #493736; float:left; margin:5px 10px; width:48%; }
+article.persona {background-color: #fff; border:solid 1px #493736; float:left; margin:5px 10px; }
 .personaInfo figure {margin:0; padding: 0;}
 .personaInfo {border-bottom:solid 1px #493736; padding:5px; overflow: hidden;}
 .personaInfo img {float:left; }
