@@ -4,41 +4,18 @@
         <title>HCI - Esox</title>
         <link href="https://fonts.googleapis.com/css?family=Audiowide|Share+Tech" rel="stylesheet">
         <style>
-        html {font-size: 1em;}
-
-        body {
-        background-color: white;
-        font-family: 'Share Tech', sans-serif;
-        font-weight: 400;
-        line-height: 1.45;
-        color: #333;
+        
+        img {
+            max-width: 200px;
         }
 
-        p {margin-bottom: 1.3em;}
-
-        h1, h2, h3, h4 {
-        margin: 1.414em 0 0.5em;
-        font-weight: inherit;
-        line-height: 1.2;
-        }
-
-        h1 {
-        margin-top: 0;
-        font-size: 6.854em;
-        }
-
-        h2 {font-size: 4.236em;}
-
-        h3 {font-size: 2.618em;}
-
-        h4 {font-size: 1.618em;}
-
-        small, .font_small {font-size: 0.618em;}
         </style>
-
-        <link rel="stylesheet" type="text/css" href="./Personas Template_files/style.css">
-        <link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/styles/placeholder.css" type="text/css"><script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();</script><link type="text/css" rel="stylesheet" href="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content.css"></head>
-
+        <link rel="stylesheet" type="text/css" href="./Personas Template_files/style.css">        
+        <link rel="stylesheet" type="text/css" href="./style/scholarly.css">
+        <link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/styles/placeholder.css" type="text/css">
+        <script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();</script>
+        <link type="text/css" rel="stylesheet" href="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content.css">
+        <script src="./js/scholarly.min.js"></script>
     </head>
     <body prefix="schema: http://schema.org">
         <div role="contentinfo">
@@ -123,13 +100,15 @@
         </section>
         <section id="Personas">
             <h2>Personas</h2>
-            <img alt="Persona relevant people" src="./img/pg4-l.jpg">
-            <img alt="Persona pain points" src="./img/pg4-r.jpg">
+            <div>            
+                <img alt="Persona relevant people" src="./img/pg4-l.jpg">
+                <img alt="Persona pain points" src="./img/pg4-r.jpg">
+            </div>
             <article itemscope="Primary" itemtype="http://schema.org/Person" class="persona">
                 <div class="personaInfo">
                     <h3>Type: Primary</h3>
                     <figure>
-                        <img itemprop="image" src="./Personas Template_files/150x150" alt="persona image">
+                        <img itemprop="image" src="./img/Stefan.jpeg" alt="persona image">
                     </figure>
                     <div class="personaBackground">				
                         <h4>Name: <span itemprop="givenName">Stefan</span> <span itemprop="familyName">Great</span></h4>
@@ -201,7 +180,7 @@
                 <div class="personaInfo">
                     <h3>Type: Secondary</h3>
                     <figure>
-                        <img itemprop="image" src="./Personas Template_files/150x150" alt="persona image">
+                        <img itemprop="image" src="./img/Iulia.jpeg" alt="persona image">
                     </figure>
                     <div class="personaBackground">				
                         <h4>Name: <span itemprop="givenName">Iulia</span> <span itemprop="familyName">Steluta</span></h4>
@@ -275,7 +254,7 @@
                 <div class="personaInfo">
                     <h3>Type: Negative</h3>
                     <figure>
-                        <img itemprop="image" src="./Personas Template_files/150x150" alt="persona image">
+                        <img itemprop="image" src="./img/Bogdan.jpeg" alt="persona image">
                     </figure>
                     <div class="personaBackground">				
                         <h4>Name: <span itemprop="givenName">Bogdan</span> <span itemprop="familyName">Opar</span></h4>
@@ -350,7 +329,7 @@
                 <div class="personaInfo">
                     <h3>Type: Served</h3>
                     <figure>
-                        <img itemprop="image" src="./Personas Template_files/150x150" alt="persona image">
+                        <img itemprop="image" src="./img/Irina.jpeg" alt="persona image">
                     </figure>
                     <div class="personaBackground">				
                         <h4>Name: <span itemprop="givenName">Irina</span> <span itemprop="familyName">Alexandru</span></h4>
@@ -415,6 +394,7 @@
                     <p>• she might not use the product direcly but her teacher might use the produc to explore/explain/showcase an example ?</p>
                 </div>
             </article>
+            <div style="clear:both;"></div>
         </section>
         <section id="Skaches">
             <h2>Skaches</h2>
